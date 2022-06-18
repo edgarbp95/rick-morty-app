@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: #bce2ef;
+    --bg: #0b5764;
+    --card:#d2e481;
+    --white: #ffffff;
+    --gray: #7d8296;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+h1{
+    color: var(--card);
+}
+
+.color-card{
+    background-color: var(--card);
+    
+}
+
+.btn-buscar{
+    background-color: var(--card);
+    color: var(--bg);
+}
